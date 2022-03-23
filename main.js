@@ -3,7 +3,7 @@ function displayTime(){
     var hrs = dateTime.getHours();
     var min = dateTime.getMinutes();
     var sec = dateTime.getSeconds();
-   var mSec = dateTime.getMilliseconds();
+  // var mSec = dateTime.getMilliseconds();
   var session = document.getElementById('session');
   var day = dateTime.getDay();
 
@@ -40,7 +40,7 @@ switch (day){
     document.getElementById('hour').innerHTML = hrs;
     document.getElementById('min').innerHTML = min;
     document.getElementById('sec').innerHTML = sec;
-    document.getElementById('mSec').innerHTML = mSec;
+   // document.getElementById('mSec').innerHTML = mSec;
     document.getElementById('day').innerHTML = `Today is ${day}`;
 
     
